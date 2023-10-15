@@ -30,7 +30,7 @@ public class KneserGraph {
             list.add(i);
         }
         System.out.println("New graph has "+binomi(n, k)+" vertices");
-        List<List<Integer>> vertices = getDisjointSubsets(list, k);
+        vertices = getDisjointSubsets(list, k);
         for (List<Integer> vertice : vertices) {
             System.out.println(vertice);
         }
